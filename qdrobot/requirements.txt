@@ -1,3 +1,5 @@
 wheel
 lxml
 requests-html
+PyExecJS
+pycrypto
