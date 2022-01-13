@@ -1,13 +1,9 @@
 #网易云合伙人签到
 name: wangyiqiandaoBot
 
-on:               
-  schedule:                              # 设置定时任务
-    - cron: '0/1 * * * *'
-    
+on: push
 jobs:
   build:
-
     runs-on: ubuntu-latest
     steps:
     - name: 'Checkout codes'
