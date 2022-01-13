@@ -10,7 +10,6 @@ import execjs
 import json
 
 from Crypto.Cipher import AES
-from notify import send
 
 
 def to_16(key):
@@ -177,4 +176,3 @@ if __name__ == "__main__":
         _check_item = all_data.get("MUSIC_COPARTNER", [])[0]
         res = Copartner(_check_item).main()
         print(res)
-        send('网易音乐合伙人', res)
