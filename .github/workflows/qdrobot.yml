@@ -1,5 +1,5 @@
-# 钉钉 rss 推送机器人
-name: DingDingRssBot
+#网易云合伙人签到
+name: wangyiqiandaoBot
 
 on:               
   schedule:                              # 设置定时任务
