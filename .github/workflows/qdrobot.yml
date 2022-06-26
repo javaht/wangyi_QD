@@ -3,7 +3,7 @@ name: wangyiqiandaoBot
 
 on:               
   schedule:                              # 设置定时任务
-    - cron: '0 0 * * *'
+    - cron: ''
 jobs:
   build:
     runs-on: ubuntu-latest
